@@ -1,6 +1,6 @@
 ****************************************************************************************
-# Introduction - Dynamic Programming
+#Introduction - Dynamic Programming
 ****************************************************************************************
-# A study and implementation of construction of Fanin Trees to minimize the output delay and keeping the cost within the given threshold.
+#A study and implementation of construction of Fanin Trees to minimize the output delay and keeping the cost within the given threshold.
 ****************************************************************************************
 The solutions iterates through each of the possible combination of gates with the given inputs and retrieves the optimal solution recursively. For n arrival times, the given combinations can be n-1 ways. For instance, if the given arrival times are 4 in number (ABCD), then there are 3 ways to form gates: A(BCD), (AB)CD and (ABC)D. So we divide the problem into sub problems of smaller size. Therefore, the problem has optimal substructure property and is solved using Dynamic Programming.
